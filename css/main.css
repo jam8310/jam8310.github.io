@@ -1,0 +1,139 @@
+
+/* GENERAL */
+
+body{
+  max-width:1040px;
+  margin: 0 auto;
+  font-family:sans-serif;
+}
+hr{
+  background-color:#FBC02D;
+  margin:5px 0 30px;
+}
+h1, h2, h4, h6{
+  text-transform: uppercase;
+  margin-bottom:0;
+}
+h2{
+  font-size:2.5em;
+}
+h4{
+  font-size:1.1em;
+}
+h5{
+  font-size: 1em;
+}
+h6{
+  background-color: #444;
+  color:#FBC02D;
+  padding:5px;
+  text-align:center;
+}
+.prenom{
+  color:#FBC02D;
+}
+
+
+/* CV */
+#cv{
+  padding:0;
+}
+.container{
+padding:0;
+}
+.main{
+  display:flex;
+  justify-content:space-between;
+
+}
+
+/* HEADER */
+
+.header{
+  width:250px;
+  background-color:#FBC02D;
+  color:#000;
+}
+ .profil{
+  text-align: center;
+  padding:25px;
+}
+.profil img{
+  width:130px;
+  height:130px;
+  border-radius: 50%;
+  border:1px solid #444;
+  margin:0 auto;
+}
+.profil h1, .profil h5{
+  display:none;
+}
+.a_propos p{
+  font-size: 14px;
+  padding:25px;
+}
+.contact ul{
+  padding:20px 30px;
+}
+.contact ul li{
+  list-style: none;
+  font-size: 14px;
+}
+.loisirs p{
+  text-align:center;
+}
+.loisirs p .fas{
+  border:1px solid #444;
+  border-radius:50%;
+  font-size: 25px;
+  padding-top:7px;
+  margin:10px;
+  height:43px;
+  width:43px;
+}
+/* INFO */
+
+#cv .info{
+  padding:40px 40px 10px 40px;
+}
+#cv .info .fas{
+  color:#FBC02D;
+  font-size:20px;
+  margin:0 20px 0 3px;
+}
+
+#cv .info-header{
+  padding: 20px 0 40px;
+}
+#cv .info-header h5 span{
+  border-bottom: 1px solid #FBC02D;
+}
+#cv .formation-info{
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.8em;
+}
+.formation-info .date{
+  width:40%;
+}
+#cv .formation-info .fas{
+  font-size:0.9em;
+}
+#cv .formation-info .fa-circle{
+  font-size:0.4em;
+  color:#D59800;
+}
+.formation-info .description{
+  width:60%;
+}
+.formation-info .description p{
+  font-size:1em;
+}
+.recommandations-info{
+  display:flex;
+  justify-content: space-between;
+}
+.recommandations .liste{
+  font-size:12px;
+}
