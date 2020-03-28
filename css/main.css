@@ -32,7 +32,7 @@ h6{
   text-align:center;
 }
 .prenom{
-  color:red;
+  color:#FBC02D;
 }
 
 
@@ -42,12 +42,11 @@ h6{
 }
 .container{
 padding:0;
-}
-.main{
-  display:flex;
-  justify-content:space-between;
+display:flex;
+justify-content:space-between;
 
 }
+
 
 /* HEADER */
 

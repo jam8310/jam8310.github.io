@@ -1,5 +1,13 @@
-@media (max-width:768px){
-  .main {
+@media (max-width:468px){
+  .recommandations-info{
+    display:block;
+  }
+  .recommandations .liste{
+    text-align:center;
+  }
+  }
+  @media (max-width:768px){
+  .container {
     display:block;
   }
   .header{
@@ -21,6 +29,26 @@
   #cv .info-header h2, .info-header h5{
     display:none;
   }
+  #cv .formation-info{
+    display: block;
+    text-align:center;
+  }
+  .formation-info .date{
+    width:100%;
+    margin-bottom:10px;
+  }
+  .formation-info .description{
+    width:100%;
+  }
+
+  h4{
+    text-align: center;
+  }
+  .description h4, .description h5{
+    width:100%;
+    text-align:center;
+  }
+
 }
 @media (min-width: 769px){
   .loisirs{
