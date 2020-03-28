@@ -13,6 +13,13 @@
   .header{
     width:100%;
   }
+  .info{
+    width:100%;
+  }
+  h4{
+    font-size:1.3em;
+    text-align: center;
+  }
    .profil h1, .profil h5{
     display:block;
   }
@@ -25,7 +32,9 @@
    .loisirs p{
     margin-top:0;
   }
-
+  #cv{
+    font-size:1em;
+  }
   #cv .info-header h2, .info-header h5{
     display:none;
   }
@@ -41,12 +50,16 @@
     width:100%;
   }
 
-  h4{
-    text-align: center;
+  .description h4{
+    font-weight: 500;
+    font-size: 1.15em;
   }
   .description h4, .description h5{
     width:100%;
     text-align:center;
+  }
+  .recommandations p{
+    font-size: 1em;
   }
 
 }
